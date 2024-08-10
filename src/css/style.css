@@ -120,6 +120,7 @@ a.button-blue:hover {
   width: 32px;
   height: 32px;
   padding: 0;
+  outline: none;
 }
 .navbar > .container button.navbar-toggler .navbar-toggler-icon {
   width: 20px;
@@ -265,7 +266,110 @@ footer.footer .container .footer-content hr {
   border-top: 2px solid #ffffff;
 }
 
+/* registration.html
+================================================== */
+section.registration {
+  width: 100%;
+  padding: 227px 0 86px 0;
+  background: linear-gradient(
+      360deg,
+      rgba(0, 209, 255, 0) 0%,
+      rgba(0, 209, 255, 0.617515) 44%,
+      #00d1ff 100%
+    ),
+    linear-gradient(
+      360deg,
+      rgba(255, 199, 60, 0.2) 0%,
+      rgba(255, 199, 60, 0.120585) 32.03%,
+      rgba(255, 199, 60, 0) 53.36%
+    ),
+    url("../assets/images/regis-bg.jpeg");
+  background-size: cover;
+}
+
+section.registration .container .card-registrasi {
+  padding: 30px 20px;
+  gap: 20px;
+}
+section.registration .container .card-registrasi input.input-form,
+section.registration .container .card-registrasi textarea {
+  padding: 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #f8f8f8;
+  color: #000000 !important;
+  font-size: 12px;
+}
+section.registration .container .card-registrasi input.input-form:focus,
+section.registration .container .card-registrasi textarea.input-form:focus {
+  border: none;
+  outline: none;
+}
+section.registration .container .card-registrasi input.input-form::placeholder,
+section.registration
+  .container
+  .card-registrasi
+  textarea.input-form::placeholder {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: #071424;
+}
+section.registration .container .card-registrasi span.caption {
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 12.19px;
+  color: #828282;
+}
+
+section.registration .container .card-registrasi .text-caption {
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 14.63px;
+  color: #071424;
+}
+
+section.registration .container .card-registrasi #imageUpload {
+  display: none;
+}
+section.registration .container .card-registrasi .upload-label {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 200px;
+  height: 200px;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  overflow: hidden;
+}
+
+section.registration
+  .container
+  .card-registrasi
+  .upload-label
+  .upload-label.has-image
+  svg {
+  background-color: #fff;
+  border-radius: 100%;
+}
+
+section.registration
+  .container
+  .card-registrasi
+  .upload-label.has-image
+  svg
+  ~ span {
+  display: none;
+}
+
 @media (max-width: 992px) {
+  .navbar > .container .navbar-nav {
+    gap: 32px;
+  }
   a.button-blue {
     display: block;
     padding: 16px 24px;
@@ -283,7 +387,7 @@ footer.footer .container .footer-content hr {
 
 @media (max-width: 768px) {
   .navbar > .container .navbar-nav {
-    gap: 34px;
+    gap: 28px;
   }
   footer.footer .container .footer-content {
     align-items: center;
