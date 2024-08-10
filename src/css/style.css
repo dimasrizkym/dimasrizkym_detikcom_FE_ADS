@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* border: #212427 solid 0.5px; */
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h1 {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 39.01px;
+  color: #ffffff;
+}
+
+h2 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 29.26px;
+  color: #ffffff;
+}
+
+h3 {
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #212427;
+}
+
+p {
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  color: #ffffff;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  object-fit: cover;
+  background-size: cover;
+  background-position: center;
+}
+
+a.button-primary {
+  display: inline-block;
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  border-radius: 100px;
+  background-color: #ffc73c;
+  box-shadow: 0px 18px 40px 12px #ffd36759;
+  transition: 0.3s ease-in-out;
+}
+
+a.button-primary:hover {
+  background-color: #ff9a3c;
+  box-shadow: 0px 18px 40px 12px #ff9a3c40;
+}
+
+a.button-blue {
+  display: block;
+  width: 100%;
+  padding: 24px 32px 24px 32px;
+  border-radius: 16px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24.38px;
+  color: #ffffff;
+  text-align: center;
+  background-color: #00d1ff;
+  transition: 0.3s ease-in-out;
+}
+a.button-blue:hover {
+  background-color: #ffc73c;
+}
+
+.padding-y-150 {
+  padding: 150px 0;
+}
+
+.mb-32px {
+  margin-bottom: 32px;
+}
+
+.text-yellow {
+  color: #ffe03c;
+}
+
+.text-gray {
+  color: #6c6c6c;
+}
+
+/* index.html
+================================================== */
+.navbar {
+  width: 100%;
+}
+.navbar > .container {
+  padding: 25px 35px;
+  border-radius: 60px;
+}
+
+.navbar > .container .navbar-brand img {
+  width: 180px;
+}
+.navbar > .container button.navbar-toggler {
+  border: none;
+  background-color: #ffc73c;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+}
+.navbar > .container button.navbar-toggler .navbar-toggler-icon {
+  width: 20px;
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+.navbar > .container .navbar-nav {
+  gap: 51px;
+}
+
+.navbar > .container .navbar-nav .nav-item:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 100px;
+}
+
+.navbar > .container .navbar-nav .nav-link {
+  padding: 10px 20px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #212427;
+  border-radius: 100px;
+}
+
+.hero {
+  width: 100%;
+  height: 120vh;
+}
+
+.hero img#img-hero {
+  width: 100%;
+  height: 120vh;
+}
+
+.hero .hero-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 209, 255, 0) 45.54%,
+    #00d1ff 100%
+  );
+  width: 100%;
+  height: 120vh;
+  z-index: 10;
+}
+
+.hero .container.explore-slider {
+  width: 100%;
+  padding-bottom: 80px;
+  z-index: 11;
+}
+
+.hero .container.explore-slider img {
+  margin-bottom: 36px;
+}
+
+section.about-program {
+  width: 100%;
+  background: linear-gradient(180deg, rgba(0, 209, 255, 0) 0%, #00d1ff 100%),
+    linear-gradient(180deg, #00d1ff 0%, rgba(0, 209, 255, 0) 100%),
+    url("../assets/images/about-program-bg.jpeg");
+  background-size: cover;
+}
+
+section.about-program .about-program-desc {
+  margin-bottom: 64px;
+}
+
+section.detik-update {
+  width: 100%;
+  background: url("../assets/images/detiktravel-update-bg.jpg");
+  background-size: cover;
+}
+
+section.detik-update .container > img {
+  width: 100%;
+  max-width: 400px;
+}
+
+section.detik-update .card-detik-update .card-image .card-image-bg {
+  height: 100%;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 209, 255, 0) 86.68%,
+    #00d1ff 100%
+  );
+  overflow: hidden !important;
+  position: relative;
+}
+/* section.detik-update .card-detik-update:hover .card-image .card-image-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(0, 209, 255, 0) 86.68%,
+    #00d1ff 100%
+  );
+} 
+section.detik-update .card-detik-update:hover .card-image img {
+  transform: scale(1.1);
+} */
+
+section.detik-update .card-detik-update > .card-text {
+  padding: 24px;
+  background-color: #00d1ff;
+}
+
+section.detik-update .card-detik-update:hover > .card-text h2 {
+  color: #ffe03c;
+}
+
+section.detik-update .card-list .d-flex.gap-3 img {
+  width: 100%;
+  height: 100%;
+  max-width: 195px;
+  transition: 0.3s ease-in-out;
+}
+
+section.detik-update .card-list .d-flex.gap-3:hover img {
+  transform: scale(1.1);
+}
+section.detik-update .card-list .d-flex.gap-3:hover h3 {
+  color: #00d1ff;
+}
+
+footer.footer {
+  width: 100%;
+  padding: 50px 0;
+  background-color: #00d1ff;
+}
+
+footer.footer .container .footer-content {
+  gap: 30px;
+}
+
+footer.footer .container .thailand-white-logo {
+  max-width: 286px;
+}
+
+footer.footer .container .footer-content .content-text-social {
+  gap: 100px;
+}
+footer.footer .container .footer-content .content-text-social span {
+  font-size: 12px;
+}
+footer.footer .container .footer-content hr {
+  border-top: 2px solid #ffffff;
+}
+
+@media (max-width: 992px) {
+  a.button-blue {
+    display: block;
+    padding: 16px 24px;
+    width: fit-content;
+    font-size: 16px;
+  }
+  .navbar > .container {
+    border-radius: 40px;
+    gap: 51px 0;
+  }
+  .navbar > .container .navbar-brand img {
+    width: 160px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar > .container .navbar-nav {
+    gap: 34px;
+  }
+  footer.footer .container .footer-content {
+    align-items: center;
+  }
+  footer.footer .container .footer-content .content-text-social {
+    flex-direction: column;
+    gap: 30px;
+  }
+  footer.footer .container .footer-content p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 24px;
+  }
+
+  h2 {
+    font-size: 22px;
+  }
+
+  h3 {
+    font-size: 16px;
+  }
+  .navbar {
+    padding: 24px 16px;
+  }
+  .navbar > .container .navbar-nav {
+    gap: 16px;
+  }
+  section.detik-update .card-detik-update > .card-text {
+    padding: 16px;
+  }
+  section.detik-update .card-list .d-flex.gap-3 img {
+    width: 130px;
+    height: 130px;
+  }
+}
