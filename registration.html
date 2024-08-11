@@ -11,18 +11,13 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <!-- Swiper -->
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
-    />
     <!-- Custom CSS -->
     <link rel="stylesheet" href="src/css/style.css" />
   </head>
   <body>
     <header class="position-relative">
       <!-- START : Navbar -->
-      <nav class="navbar fixed-top navbar-expand-lg bg-tranparent py-5 w-100">
+      <nav class="navbar fixed-top navbar-expand-lg bg-tranparent pt-4 w-100">
         <div class="container bg-white" style="--bs-bg-opacity: 0.5">
           <a class="navbar-brand" href="index.html">
             <img
@@ -223,27 +218,5 @@ Alasan mengikuti program “Explore Thailand by Detiktravel”*</textarea
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
-    <!-- Swiper -->
-    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-
-    <script>
-      // JavaScript to handle image upload and preview
-      const imageUpload = document.getElementById("imageUpload");
-      const uploadLabel = document.getElementById("uploadLabel");
-
-      imageUpload.addEventListener("change", function () {
-        const file = this.files[0];
-        if (file) {
-          const reader = new FileReader();
-
-          reader.addEventListener("load", function () {
-            uploadLabel.style.backgroundImage = `url(${this.result})`;
-            uploadLabel.classList.add("has-image");
-          });
-
-          reader.readAsDataURL(file);
-        }
-      });
-    </script>
   </body>
 </html>
