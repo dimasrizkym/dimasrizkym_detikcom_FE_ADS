@@ -393,16 +393,6 @@ section.registration .container .card-registrasi .upload-label {
 section.registration
   .container
   .card-registrasi
-  .upload-label
-  .upload-label.has-image
-  svg {
-  background-color: #fff;
-  border-radius: 100%;
-}
-
-section.registration
-  .container
-  .card-registrasi
   .upload-label.has-image
   svg
   ~ span {
