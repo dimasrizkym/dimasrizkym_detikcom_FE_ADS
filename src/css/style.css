@@ -82,6 +82,7 @@ a.button-blue {
   background-color: #00d1ff;
   transition: 0.3s ease-in-out;
 }
+
 a.button-blue:hover {
   background-color: #ffc73c;
 }
@@ -107,6 +108,7 @@ a.button-blue:hover {
 .navbar {
   width: 100%;
 }
+
 .navbar > .container {
   padding: 25px 35px;
   border-radius: 60px;
@@ -115,6 +117,7 @@ a.button-blue:hover {
 .navbar > .container .navbar-brand img {
   width: 180px;
 }
+
 .navbar > .container button.navbar-toggler {
   border: none;
   background-color: #ffc73c;
@@ -123,6 +126,7 @@ a.button-blue:hover {
   padding: 0;
   outline: none;
 }
+
 .navbar > .container button.navbar-toggler .navbar-toggler-icon {
   width: 20px;
   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
@@ -175,6 +179,7 @@ a.button-blue:hover {
 .hero .container.explore-slider img.logo-thai-travel {
   margin-bottom: 36px;
 }
+
 .hero .container.explore-slider img.logo-thai-travel-white {
   display: none;
 }
@@ -226,6 +231,7 @@ section.detik-update .card-detik-update .card-image .img-box img {
   display: block;
   transition: 0.3s ease-in-out;
 }
+
 section.detik-update .card-detik-update:hover .card-image .card-image-bg {
   background: linear-gradient(
     180deg,
@@ -233,6 +239,7 @@ section.detik-update .card-detik-update:hover .card-image .card-image-bg {
     #00d1ff 100%
   );
 }
+
 section.detik-update .card-detik-update:hover .card-image img {
   transform: scale(1.1);
 }
@@ -284,9 +291,11 @@ footer.footer .container .thailand-white-logo {
 footer.footer .container .footer-content .content-text-social {
   gap: 100px;
 }
+
 footer.footer .container .footer-content .content-text-social span {
   font-size: 12px;
 }
+
 footer.footer .container .footer-content hr {
   border-top: 2px solid #ffffff;
 }
@@ -316,6 +325,7 @@ section.registration .container .card-registrasi {
   padding: 30px 20px;
   gap: 20px;
 }
+
 section.registration .container .card-registrasi input.input-form,
 section.registration .container .card-registrasi textarea {
   padding: 16px;
@@ -325,11 +335,13 @@ section.registration .container .card-registrasi textarea {
   color: #000000 !important;
   font-size: 12px;
 }
+
 section.registration .container .card-registrasi input.input-form:focus,
 section.registration .container .card-registrasi textarea.input-form:focus {
   border: none;
   outline: none;
 }
+
 section.registration .container .card-registrasi input.input-form::placeholder,
 section.registration
   .container
@@ -340,6 +352,7 @@ section.registration
   line-height: 14.63px;
   color: #071424;
 }
+
 section.registration .container .card-registrasi span.caption {
   font-size: 10px;
   font-weight: 400;
@@ -352,6 +365,10 @@ section.registration .container .card-registrasi .text-caption {
   font-weight: 400;
   line-height: 14.63px;
   color: #071424;
+}
+
+section.registration .container .card-registrasi label.text-caption a {
+  color: #00d1ff;
 }
 
 section.registration .container .card-registrasi #imageUpload {
@@ -396,6 +413,7 @@ section.registration
   .navbar > .container {
     padding: 16px 24px;
   }
+
   .navbar > .container .navbar-nav {
     gap: 32px;
   }
@@ -450,6 +468,7 @@ section.registration
     width: 120px !important;
     height: 170px !important;
   }
+
   .hero
     .container.explore-slider
     .row
@@ -478,16 +497,20 @@ section.registration
   .navbar > .container .navbar-nav {
     gap: 28px;
   }
+
   .navbar > .container .navbar-nav .navbar-brand img {
     width: 160px;
   }
+
   footer.footer .container .footer-content {
     align-items: center;
   }
+
   footer.footer .container .footer-content .content-text-social {
     flex-direction: column;
     gap: 30px;
   }
+
   footer.footer .container .footer-content p {
     text-align: center;
   }
@@ -505,21 +528,31 @@ section.registration
   h3 {
     font-size: 16px;
   }
+
   .navbar {
     padding: 24px 16px;
   }
+
   .navbar > .container .navbar-nav {
     gap: 16px;
   }
+
   section.detik-update .card-detik-update > .card-text {
     padding: 16px;
   }
+
   section.detik-update .card-list .d-flex.gap-3 img {
     width: 130px;
     height: 130px;
   }
+
+  section.registration .container .card-registrasi .upload-label {
+    width: 150px;
+    height: 150px;
+  }
 }
 
+/* swiper */
 .swiper {
   width: 100%;
   height: 100%;
