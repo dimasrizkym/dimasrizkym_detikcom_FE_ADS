@@ -527,6 +527,11 @@ section.registration
     gap: 16px;
   }
 
+  section.about-program img.img-timeline {
+    width: 100%;
+    max-width: 42px;
+  }
+
   section.detik-update .card-detik-update > .card-text {
     padding: 16px;
   }
